@@ -38,6 +38,6 @@ $StringToWrite=$user_ip.PHP_EOL.date('H:i:s').PHP_EOL.'Day was ='. $day_number.'
 $FileHandler=fopen($ipFile,'a+');
 fwrite($FileHandler,$StringToWrite);
 fclose($FileHandler);
-header("Location: https://www.asriran.com/fa/news/9274/%D8%AC%D9%86%DA%AF-%D8%B1%D9%88%D8%A7%D9%86%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%B4%D8%A7%DB%8C%D8%B9%D9%87-%D9%81%D9%88%D8%AA-%D8%B1%D9%87%D8%A8%D8%B1-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AF%D8%B1-%D8%B1%D8%B3%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%B1%D9%88%D8%B2-%D8%AC%D9%85%D8%B9%D9%87-%D8%BA%D8%B1%D8%A8");
+header("Location: https://www.imdb.com/list/ls027433291/");
 die();
 ?>
